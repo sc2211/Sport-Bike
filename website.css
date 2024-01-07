@@ -1,0 +1,163 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;;
+    font-family:'Nova Square', sans-serif;
+    height: 100vh;
+    background:linear-gradient(to bottom,#04cbe2 25% , #bf00d0 95%)
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.logo{
+    color:blue;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;;
+}
+.link{
+    display: flex;
+    font-size: 22px;
+   gap:65px;;
+}
+.link a{
+    text-decoration: none;
+}
+
+.heading{
+   
+min-height: 95vh;
+width: 100%;
+height: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    gap:30px;
+    padding:0 60px;
+}
+.row h1{
+    margin-bottom:40px;;
+    font-size: 33px;;
+    color:blue;
+}
+.row p{
+    font-size: 20px;
+    color:blue;
+    margin-bottom: 19px;;
+}
+.col{
+    width:95%;
+}
+
+.button{
+    display: flex;
+    gap:35px;
+}
+.btn{
+    border:2px solid;
+    border-radius: 10px;;
+    padding:10px 11px;
+    color:rgb(247, 163, 7);
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #bf00d0;
+}
+.img{
+    width: 500px;;
+}
+
+.bike-images{
+color:blue;
+text-align: center;
+font-size: 33px;
+padding:20px;
+}
+
+.name{
+    color:blue;
+    font-size: 33px;;
+}
+
+.h1{
+font-size: 33px;
+color:blue;
+text-align: center;
+padding:10px;
+}
+
+.p1{
+    font-size: 20px;;
+color:blue;
+text-align: center;
+padding:10px;
+padding-bottom: 10px;;
+}
+
+
+
+
+
+
+
+/* contact page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
